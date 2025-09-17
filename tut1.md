@@ -6,17 +6,11 @@
 cargo new exercise_name
 cd exercise_name
 
-例如 cargo hello_world
-然后 cd hello_world
+# 例如 cargo hello_world
+# 然后 cd hello_world
 
 # 编辑 src/main.rs
 # 运行程序
-
-输入ls查看当前目录
-显示如下：
-```cmd
-cichlidfish@Mac-2 hello_world % ls
-Cargo.toml      src
 
 cargo run
 
