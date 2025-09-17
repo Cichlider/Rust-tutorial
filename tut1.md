@@ -35,7 +35,7 @@ cargo clippy
 ## 练习题
 
 ### 练习 1 - Hello World
-**文件名**: `hello_world.rs`
+**创建文件**: `cargo new hello_world`
 
 编写一个名为 `HelloWorld` 的结构体，实现一个方法来打印 "Hello world!" 到屏幕上。
 
@@ -58,7 +58,7 @@ fn main() {
 - 可以创建一个无需参数的方法
 
 ### 练习 2 - Hello Someone
-**文件名**: `hello_someone.rs`
+**创建文件**: `cargo new hello_someone.rs`
 
 创建一个 `Greeter` 结构体，能够向指定的人问好。
 
@@ -81,7 +81,7 @@ fn main() {
 **预期输出**: `Hello John!`
 
 ### 练习 3 - 矩形面积和周长计算
-**文件名**: `rectangle.rs`
+**创建文件**: `cargo new rectangle.rs`
 
 逐步开发一个 `Rectangle` 结构体：
 
@@ -139,7 +139,7 @@ fn main() {
 ```
 
 ### 练习 4 - 多种几何图形
-**文件名**: `shapes.rs`
+**创建文件**: `cargo new shapes.rs`
 
 创建三个结构体来表示不同的几何图形：
 
@@ -221,7 +221,7 @@ fn main() {
 ```
 
 ### 练习 5 - 状态与行为 I
-**文件名**: `car.rs`
+**创建文件**: `cargo new car.rs`
 
 创建一个 `Car` 结构体来模拟汽车的行为：
 
@@ -267,7 +267,7 @@ fn main() {
 ```
 
 ### 练习 6 - 状态与行为 II
-**文件名**: `student.rs`
+**创建文件**: `cargo new student.rs`
 
 创建一个 `Student` 结构体来管理学生信息：
 
