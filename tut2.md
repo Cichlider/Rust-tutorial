@@ -6,7 +6,7 @@
 cargo new exercise_name
 cd exercise_name
 
-# 例如 cargo hello_world
+# 例如 cargo new hello_world
 # 然后 cd hello_world
 
 # 编辑 src/main.rs
