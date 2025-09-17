@@ -1,15 +1,29 @@
-# Rust 结构体和方法练习
+## 编译和运行(非常重要)
 
-本周我们将进入 Rust 学习的重要阶段——从函数式编程转向面向对象编程概念。虽然 Rust 不是传统意义上的面向对象语言，但它通过结构体（struct）、方法（method）、特征（trait）等特性提供了强大的抽象能力。
+对于每个练习：
+```bash
+# 创建新项目
+cargo new exercise_name
+cd exercise_name
 
-## 面向对象编程简介
+例如 cargo hello_world
+然后 cd hello_world
 
-在 Rust 中，我们使用结构体来组织相关的数据，使用方法来操作这些数据。结构体类似于其他语言中的类，它将数据和操作数据的函数封装在一起。这种方式有助于：
+# 编辑 src/main.rs
+# 运行程序
 
-- **数据封装**：将相关数据组织在一起
-- **代码复用**：通过方法实现通用操作
-- **抽象层次**：隐藏实现细节，提供清晰的接口
-- **模块化设计**：将复杂问题分解为更小的、可管理的部分
+输入ls查看当前目录
+显示如下：
+```cmd
+cichlidfish@Mac-2 hello_world % ls
+Cargo.toml      src
+
+cargo run
+
+# 检查代码
+cargo check
+cargo clippy
+```
 
 ## 练习题
 
@@ -319,21 +333,5 @@ fn main() {
 4. **构造函数**: 使用关联函数创建实例
 5. **封装**: 通过公私有字段控制数据访问
 
-## 编译和运行
-
-对于每个练习：
-```bash
-# 创建新项目
-cargo new exercise_name
-cd exercise_name
-
-# 编辑 src/main.rs
-# 运行程序
-cargo run
-
-# 检查代码
-cargo check
-cargo clippy
-```
 
 完成这些练习后，你将掌握 Rust 中结构体和方法的基本用法，为后续学习特征（trait）和更高级的概念打下坚实基础。
